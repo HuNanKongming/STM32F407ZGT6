@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hf ff, gtgqg, LIC=8VRJ7-ENS5P-DYCV3-APNK8-QX6RH-6NU87
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  D:\software\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+E:\stm32代码\实验1：跑马灯\USER\test.uvprojx
+Project File Date:  09/29/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\software\Keil5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f40_41xxx.s...
+compiling delay.c...
+..\SYSTEM\delay\delay.c(120): warning:  #223-D: function "SysTick_CLKSourceConfig" declared implicitly
+   	SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8); 
+..\SYSTEM\delay\delay.c(120): error:  #20: identifier "SysTick_CLKSource_HCLK_Div8" is undefined
+   	SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8); 
+..\SYSTEM\delay\delay.c: 1 warning, 1 error
+compiling test.c...
+..\SYSTEM\usart\usart.h(4): error:  #5: cannot open source input file "stm32f4xx_conf.h": No such file or directory
+  #include "stm32f4xx_conf.h"
+test.c: 0 warnings, 1 error
+compiling usart.c...
+..\SYSTEM\usart\usart.h(4): error:  #5: cannot open source input file "stm32f4xx_conf.h": No such file or directory
+  #include "stm32f4xx_conf.h"
+..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling sys.c...
+"..\OBJ\test.axf" - 3 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.11.0.pack
+                Keil.STM32F4xx_DFP.2.11.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\software\Keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
