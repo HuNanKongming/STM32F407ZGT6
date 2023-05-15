@@ -1,0 +1,64 @@
+T0138 000:014.896   SEGGER J-Link V7.22b Log File
+T0138 000:015.701   DLL Compiled: Jun 17 2021 17:22:49
+T0138 000:015.715   Logging started @ 2022-03-20 06:02
+T0138 000:015.729 - 15.736ms
+T0138 000:015.758 JLINK_SetWarnOutHandler(...)
+T0138 000:015.773 - 0.021ms
+T0138 000:015.787 JLINK_OpenEx(...)
+T0138 000:022.257   Looking for J-Link GUI Server exe at: D:\software\keil5\ARM\Segger\JLinkGUIServer.exe
+T0138 000:022.351   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T0138 000:323.910   Failed to connect to J-Link GUI Server.
+T0138 005:174.891   TELNET listener socket opened on port 19021
+T0138 005:174.990   WEBSRV Starting webserver
+T0138 005:175.123   WEBSRV Webserver running on local port 19080
+T0138 005:175.140 - 5159.358ms returns "O.K."
+T0138 005:186.155 JLINK_GetEmuCaps()
+T0138 005:186.167 - 0.016ms returns 0x98E61B83
+T0138 005:186.184 JLINK_TIF_GetAvailable(...)
+T0138 005:186.194 - 0.015ms
+T0138 005:186.207 JLINK_SetErrorOutHandler(...)
+T0138 005:186.216 - 0.014ms
+T0138 005:186.474 JLINK_ExecCommand("ProjectFile = "D:\资料盘\桌面文件\STM32F407(高配版V4.1)学习资料\3 启明欣欣_各扩展模块资料\1、407高配版配套ESP8266资料\手机APP经wifi控制开发板例程代码\Project\JLinkSettings.ini"", ...). 
+T0138 005:202.114 - 15.664ms returns 0x00
+T0138 005:205.110 JLINK_ExecCommand("Device = STM32F407ZG", ...). 
+T0138 005:208.401   Device "STM32F407ZG" selected.
+T0138 005:208.787 - 3.661ms returns 0x00
+T0138 005:208.810 JLINK_GetHardwareVersion()
+T0138 005:209.758 - 0.972ms returns 10000
+T0138 005:209.793 JLINK_GetDLLVersion()
+T0138 005:209.803 - 0.014ms returns 72202
+T0138 005:209.814 JLINK_GetOEMString(...)
+T0138 005:209.825 JLINK_GetFirmwareString(...)
+T0138 005:209.836 - 0.015ms
+T0138 005:219.886 JLINK_GetDLLVersion()
+T0138 005:219.919 - 0.038ms returns 72202
+T0138 005:219.930 JLINK_GetCompileDateTime()
+T0138 005:219.940 - 0.014ms
+T0138 005:222.360 JLINK_GetFirmwareString(...)
+T0138 005:222.385 - 0.029ms
+T0138 005:224.099 JLINK_GetHardwareVersion()
+T0138 005:224.118 - 0.024ms returns 10000
+T0138 005:225.215 JLINK_GetSN()
+T0138 005:225.232 - 0.021ms returns 1041384405
+T0138 005:226.290 JLINK_GetOEMString(...)
+T0138 005:227.477 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0138 005:230.889 - 3.433ms returns 0x00
+T0138 005:230.921 JLINK_HasError()
+T0138 005:230.960 JLINK_SetSpeed(5000)
+T0138 005:231.743 - 0.797ms
+T0138 005:231.769 JLINK_GetId()
+T0138 005:234.254   InitTarget() start
+T0138 005:234.281    J-Link Script File: Executing InitTarget()
+T0138 006:231.893   Can not attach to CPU. Trying connect under reset.
+T0138 006:436.026   Connecting to CPU via connect under reset failed.
+T0138 006:491.690   InitTarget() end
+T0138 006:576.288   InitTarget() start
+T0138 006:576.326    J-Link Script File: Executing InitTarget()
+T0138 006:733.084   Can not attach to CPU. Trying connect under reset.
+T0138 006:934.271   Connecting to CPU via connect under reset failed.
+T0138 006:990.950   InitTarget() end
+T0138 006:990.986 - 1759.222ms returns 0x00000000
+T0138 009:231.527 JLINK_Close()
+T0138 009:254.423 - 22.922ms
+T0138 009:254.455   
+T0138 009:254.465   Closed
